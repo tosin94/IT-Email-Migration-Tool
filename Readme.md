@@ -193,7 +193,7 @@ The label_info collcetion is where the label information for the destination acc
 ## Troubleshooting
 
 There are many way of troubleshooting when there is an issue with the tool. This section aims to walk you throught the usual issues encountered and possible solutions to deal with them.
-The tool has a log where details of the running tool are kept, this can be found in the logs directory, which can be found [here](./src/logging/logs) *****only available after it has logged some data**.  
+The tool has a log where details of the running tool are kept, this can be found in the logs directory, which can be found [here](./src/logging/logs)*****only available after it has logged some data**.  
 When errors are spotted, it is advisable to check these logs first as it is the best aread to find intial details of any error that may have occured.
 
 ### **Possible errors encountered:**
