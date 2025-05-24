@@ -1,0 +1,30 @@
+{
+  "name": "it_email_transfer_tool",
+  "version": "1.0.0",
+  "description": "Email transfer tool to transfer a mailbox from one user account to another keeping the structure",
+  "main": "main.js",
+  "homepage": "https://dev.azure.com/tearfund-org/Misc%20TF%20Apps/_git/IT%20Email%20Transfer",
+  "repository": "https://tearfund-org@dev.azure.com/tearfund-org/Misc%20TF%20Apps/_git/IT%20Email%20Transfer",
+  "scripts": {
+    "debug-start": "npm start",
+    "debug-cont": "npm run cont",
+    "test": "node --unhandled-rejections=strict -e \"require('./src/calls').label()\"",
+    "start": "node --unhandled-rejections=strict -e \"require('./src/controller').controller()\"",
+    "cont": "node --unhandled-rejections=strict -e \"require('./src/controller').cont_exec()\"",
+    "scheduler": "node --unhandled-rejections=strict -e \"require('./scripts/start').getTiming()\"",
+    "option1": "node --unhandled-rejections=strict -e \"require('./scripts/transferScripts').stopTransfer()\"",
+    "option2": "node --unhandled-rejections=strict -e \"require('./scripts/transferScripts').restartCurrent()\""
+  },
+  "author": "Samuel Omotayo",
+  "license": "apache-2.0",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "googleapis": "^81.0.0",
+    "mongodb": "^4.0.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "gaxios": "^4.3.0"
+  }
+}

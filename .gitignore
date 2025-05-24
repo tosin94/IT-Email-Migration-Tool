@@ -1,0 +1,12 @@
+.env
+node_modules
+usermigrationtool-0d900df2bd85.json
+token.json
+oauth.json
+.vscode
+env
+*.bat
+*.lnk
+tests
+scripts/*.exe*
+.attributes

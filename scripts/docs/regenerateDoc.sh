@@ -1,0 +1,1 @@
+#remove the out directory and call createDoc.sh 
