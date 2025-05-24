@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Email transfer tool to transfer a mailbox from one user account to another keeping the structure",
   "main": "main.js",
-  "homepage": "https://dev.azure.com/tearfund-org/Misc%20TF%20Apps/_git/IT%20Email%20Transfer",
-  "repository": "https://tearfund-org@dev.azure.com/tearfund-org/Misc%20TF%20Apps/_git/IT%20Email%20Transfer",
+  "repository": "https://github.com/tosin94/IT-Email-Migration-Tool",
   "scripts": {
     "debug-start": "npm start",
     "debug-cont": "npm run cont",
